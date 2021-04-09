@@ -1,0 +1,7 @@
+#!/bin/bash
+clear
+echo "Starting You Service"
+sudo service xrdp start
+vncserver
+echo "Login To VNC Any"
+./ngrok tcp 3380
