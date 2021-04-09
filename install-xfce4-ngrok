@@ -14,5 +14,7 @@ clear
 echo "---- Select You Password ----"
 vncpasswd
 clear
+wget https://raw.githubusercontent.com/TranAnhOffical/codelab-project/main/start-desktop
+clear
 echo "---- Add You Ngrok Auth Token To Start Ngrok ----"
 echo "Type './start-desktop' to starting Desktop"
