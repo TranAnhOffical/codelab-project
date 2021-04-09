@@ -1,0 +1,18 @@
+#!/bin/bash
+echo "---- Tool Install XFCE 4 Ngrok 1.0.0 ----"
+apt update
+apt install sudo
+sudo apt install update
+sudo apt install wget
+sudo apt install xfce4
+sudo apt install xrdp
+sudo apt install tigervnc-standalone-server
+sudo apt install unzip
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
+unzip ngrok-stable-linux-amd64.zip
+clear
+echo "---- Select You Password ----"
+vncpasswd
+clear
+echo "---- Add You Ngrok Auth Token To Start Ngrok ----"
+echo "Type './start-desktop' to starting Desktop"
