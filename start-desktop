@@ -4,4 +4,4 @@ echo "Starting You Service"
 sudo service xrdp start
 vncserver
 echo "Login To VNC Any"
-./ngrok tcp 3380
+./ngrok tcp 3389
