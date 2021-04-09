@@ -17,4 +17,4 @@ clear
 wget https://raw.githubusercontent.com/TranAnhOffical/codelab-project/main/start-desktop
 clear
 echo "---- Add You Ngrok Auth Token To Start Ngrok ----"
-echo "Type './start-desktop' to starting Desktop"
+echo "Type 'bash start-desktop.sh' to starting Desktop"
