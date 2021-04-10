@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-echo "Starting You Service"
+echo "--- Starting You Service ---"
 sudo service xrdp start
 vncserver
 echo "Login To VNC Any"
