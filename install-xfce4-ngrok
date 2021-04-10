@@ -1,6 +1,8 @@
 #!/bin/bash
 clear
-echo "---- Tool Install XFCE 4 Ngrok 1.0.0 ----"
+echo "---- Tool Install XFCE 4 Ngrok 1.1.0 ----"
+echo "### Update 10/4/2021 ###"
+echo ""
 apt update
 apt install sudo
 sudo apt install update
