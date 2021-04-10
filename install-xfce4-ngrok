@@ -7,6 +7,7 @@ apt update
 apt install sudo
 sudo apt install update
 sudo apt install wget
+sudo apt install xrdp
 sudo apt-get update
 sudo apt install udisks2 -y
 sudo dpkg --configure -a
