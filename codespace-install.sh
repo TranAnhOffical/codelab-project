@@ -11,7 +11,7 @@ clear
 echo "---------- CodeLab Project 1.0.0 Beta ----------"
 echo ""
 echo "--- Setup Codelab ---"
-wget link
+wget https://raw.githubusercontent.com/TranAnhOffical/codelab-project/main/codelab.sh
 clear
 echo "---------- CodeLab Project 1.0.0 Beta ----------"
 echo ""
