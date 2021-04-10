@@ -1,13 +1,19 @@
 #!/bin/bash
+clear
 echo "---- Tool Install XFCE 4 Ngrok 1.0.0 ----"
 apt update
 apt install sudo
 sudo apt install update
 sudo apt install wget
-sudo apt install xfce4
-sudo apt install xrdp
-sudo apt install tigervnc-standalone-server
-sudo apt install unzip
+sudo apt-get update
+sudo apt install udisks2 -y
+sudo dpkg --configure -a
+sudo apt-mark hold udisks2
+sudo apt-get install keyboard-configuration -y
+sudo apt-get install tzdata -y
+sudo apt-get install sudo wget nano inetutils-tools dialog -y
+sudo apt-get install xfce4 xfce4-goodies xfce4-terminal exo-utils tigervnc-standalone-server tigervnc-common dbus-x11 --no-install-recommends -y
+sudo apt-get clean
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
 unzip ngrok-stable-linux-amd64.zip
 clear
@@ -16,5 +22,7 @@ vncpasswd
 clear
 wget https://raw.githubusercontent.com/TranAnhOffical/codelab-project/main/start-desktop
 clear
+echo "---- Config ----"
+
 echo "---- Add You Ngrok Auth Token To Start Ngrok ----"
 echo "Type 'bash start-desktop' to starting Desktop"
