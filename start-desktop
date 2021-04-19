@@ -1,5 +1,6 @@
 #!/bin/bash
 clear
+startxfce4
 echo "--- Starting You Service ---"
 sudo service xrdp start
 vncserver
